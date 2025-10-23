@@ -12,6 +12,7 @@
 function saluer(nom) {
   // Exercice non implémenté : afficher Bonjour, [nom] ou Bonjour, inconnu
   // Placeholder neutre : ne fait rien et retourne undefined.
+  
 }
 
 // Ne pas modifier la ligne ci-dessous
