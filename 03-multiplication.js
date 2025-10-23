@@ -16,6 +16,7 @@ function multiplication(a, b) {
   if (isNaN(a) || isNaN(b)) return undefined;
 
   return a * b;
+  
 }
 
 // Ne pas modifier la ligne ci-dessous

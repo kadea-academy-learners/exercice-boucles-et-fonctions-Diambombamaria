@@ -1,3 +1,5 @@
+const { max } = require("./05-max");
+
 /*
   Énoncé :
   Crée une fonction `maxDeTrois(a, b, c)` qui :
@@ -13,6 +15,14 @@
 function maxDeTrois(a, b, c) {
   // Placeholder neutre : retourne null pour indiquer non-implémentation
   return null;
+  if(a,b,c){
+    console.log("a === b && b === c")
+
+  }else{
+     return Math.max(a,b,c)
+  }
+
+  
 }
 
 // Ne pas modifier la ligne ci-dessous

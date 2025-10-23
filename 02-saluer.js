@@ -18,6 +18,6 @@ function saluer(nom) {
     console.log("Bonjour, inconnu");
   }
 }
-
+ saluer(nom);
 // Ne pas modifier la ligne ci-dessous
 module.exports = { saluer }

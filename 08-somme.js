@@ -14,9 +14,8 @@ function somme(n) {
   // Placeholder neutre : retourne 0 pour indiquer non-implémentation
   return 0;
   let somme =0
-  
+
 
 }
 
-// Ne pas modifier la ligne ci-dessous
-module.exports = { somme }
+// Ne pas modifier la ligne ci-dessousmodule.exports = { somme }
