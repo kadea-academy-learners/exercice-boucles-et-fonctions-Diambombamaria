@@ -13,6 +13,9 @@ function somme(n) {
   // Exercice non implémenté : retourner la somme de 1 à n
   // Placeholder neutre : retourne 0 pour indiquer non-implémentation
   return 0;
+  let somme =0
+  
+
 }
 
 // Ne pas modifier la ligne ci-dessous

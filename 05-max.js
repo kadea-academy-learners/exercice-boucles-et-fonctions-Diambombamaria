@@ -14,6 +14,7 @@ function max(a, b) {
   // Exercice non implémenté : retourner le plus grand ou un message si égaux
   // Placeholder neutre : retourne null pour indiquer non-implémentation
   return null;
+  let 
 }
 
 // Ne pas modifier la ligne ci-dessous

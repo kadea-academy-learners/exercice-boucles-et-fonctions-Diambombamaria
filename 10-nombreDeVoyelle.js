@@ -12,6 +12,11 @@ function nombreDeVoyelles(phrase) {
   // Exercice non implémenté : doit compter les voyelles
   // Placeholder neutre : retourne 0 pour indiquer non-implémentation
   return 0;
+  let voyelles = 0;
+  for( let =0 ; i< phrase.length; i++){
+
+  }
+
 }
 
 // Ne pas modifier la ligne ci-dessous

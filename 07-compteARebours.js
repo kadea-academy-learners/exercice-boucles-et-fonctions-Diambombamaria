@@ -12,6 +12,11 @@
   */
   function compteARebours() {
     // Placeholder neutre : ne fait rien
+    let i =1;
+    for(let i=10; i >=1; i--){
+      console.log(i);
+    }
+    
   }
 
   // Ne pas modifier la ligne ci-dessous
