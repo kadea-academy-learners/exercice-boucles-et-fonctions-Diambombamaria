@@ -15,13 +15,16 @@ function max(a, b) {
   // Placeholder neutre : retourne null pour indiquer non-implémentation
   return null;
   if(typeof a !== 'number' || typeof b!== 'number' ){
-  }else if(a > b)
-  
-
-  else(a < b)
-
-
+    return null;
+  }else if (a>b){
+    return a;
+  }else if (b > a){
+    return b;
+  }else{
+    return "les deux nombres sont égaux";
+  }
+   
 }
-
+console.log(max(9,9))
 // Ne pas modifier la ligne ci-dessous
 module.exports = { max }

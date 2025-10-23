@@ -11,13 +11,40 @@
 function nombreDeVoyelles(phrase) {
   // Exercice non implémenté : doit compter les voyelles
   // Placeholder neutre : retourne 0 pour indiquer non-implémentation
-  return 0;
-  let voyelles = 0;
-  for( let =0 ; i< phrase.length; i++){
-
+  
+  let nombreDeVoyelle = 0;
+  for (let i = 0; i < phrase.length; i++)
+  {
+    if(phrase[i] == 'a')
+    {
+      nombreDeVoyelle++;
+    }
+    else if(phrase[i] == 'e')
+    {
+      nombreDeVoyelle++;
+    }
+     else if(phrase[i] == 'i')
+    {
+      nombreDeVoyelle++;
+    }
+    
+      else if(phrase[i] == 'o')
+    {
+      nombreDeVoyelle++;
+    }
+    
+      else if(phrase[i] == 'u')
+    {
+      nombreDeVoyelle++;
+    }
+       else if(phrase[i] == 'y')
+    {
+      nombreDeVoyelle++;
+    }
   }
-
+return nombreDeVoyelle;
 }
 
+console.log(nombreDeVoyelles(pharmacie));
 // Ne pas modifier la ligne ci-dessous
 module.exports = { nombreDeVoyelles }
