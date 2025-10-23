@@ -1,3 +1,4 @@
+const { isNonNullable } = require("jest-util");
 const { max } = require("./05-max");
 
 /*
@@ -15,15 +16,23 @@ const { max } = require("./05-max");
 function maxDeTrois(a, b, c) {
   // Placeholder neutre : retourne null pour indiquer non-implémentation
   return null;
-  if(a,b,c){
-    console.log("a === b && b === c")
-
-  }else{
-     return Math.max(a,b,c)
+  if(typeof a !== 'number' || typeof b !== 'number' || typeof c !== 'number')
+  {
+    return null
   }
 
+  else if(a === b && b === c)
+  {
   
+    return "Les trois nombres sont égaux"
+  }
+  else
+  {
+    return Math.max(a,b,c)
+  }
 }
+
+ console.log(maxDeTrois(4, 6, 8));
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { maxDeTrois };

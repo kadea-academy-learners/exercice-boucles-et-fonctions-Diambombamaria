@@ -16,8 +16,9 @@ function multiplication(a, b) {
   if (isNaN(a) || isNaN(b)) return undefined;
 
   return a * b;
-  
+
 }
+console.log(multiplication(7, 8));
 
 // Ne pas modifier la ligne ci-dessous
 module.exports = { multiplication }
